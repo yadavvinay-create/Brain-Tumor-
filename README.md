@@ -77,27 +77,6 @@ The notebook assumes the data is located in `drive/MyDrive/brain/Training`. Plea
     * `Cell 12-14`: Make predictions and print the classification report and accuracy score.
     * `Cell 15`: Demonstrates how to predict a single image. Update `test_image_path` to test with your own image.
 
-## Project Structure
-
-.
-├── Brain Tumor project.ipynb    # Main Jupyter Notebook
-└── drive/
-└── MyDrive/
-└── brain/
-└── Training/
-├── glioma/
-│   ├── Tr-gl_XXXX.jpg
-│   └── ...
-├── meningioma/
-│   ├── Tr-men_XXXX.jpg
-│   └── ...
-├── notumor/
-│   ├── Tr-no_XXXX.jpg
-│   └── ...
-└── pituitary/
-├── Tr-pit_XXXX.jpg
-└── ...
-
 
 ## Results
 
