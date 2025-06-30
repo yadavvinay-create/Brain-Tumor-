@@ -80,22 +80,22 @@ The notebook assumes the data is located in `drive/MyDrive/brain/Training`. Plea
 ## Project Structure
 
 .
-├── Brain Tumor project.ipynb    # The main Jupyter Notebook
+├── Brain Tumor project.ipynb    # Main Jupyter Notebook
 └── drive/
 └── MyDrive/
 └── brain/
 └── Training/
 ├── glioma/
-│   ├── Tr-gl_0001.jpg
+│   ├── Tr-gl_XXXX.jpg
 │   └── ...
 ├── meningioma/
-│   ├── Tr-men_0001.jpg
+│   ├── Tr-men_XXXX.jpg
 │   └── ...
 ├── notumor/
-│   ├── Tr-no_0001.jpg
+│   ├── Tr-no_XXXX.jpg
 │   └── ...
 └── pituitary/
-├── Tr-pit_0001.jpg
+├── Tr-pit_XXXX.jpg
 └── ...
 
 
@@ -105,23 +105,20 @@ The model achieves an accuracy of approximately 81% on the test set.
 
 **Classification Report:**
 
-          precision    recall  f1-score   support
-
-  glioma       0.78      0.82      0.80       288
-meningioma       0.69      0.64      0.67       265
-notumor       0.86      0.84      0.85       291
-pituitary       0.88      0.93      0.90       299
-
-accuracy                           0.81      1143
-macro avg       0.80      0.81      0.80      1143
-weighted avg       0.81      0.81      0.81      1143
-
-
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| glioma     | 0.78      | 0.82   | 0.80     | 288     |
+| meningioma | 0.69      | 0.64   | 0.67     | 265     |
+| notumor    | 0.86      | 0.84   | 0.85     | 291     |
+| pituitary  | 0.88      | 0.93   | 0.90     | 299     |
+|            |           |        |          |         |
+| **Accuracy** |           |        | **0.81** | **1143**|
+| **Macro Avg**| 0.80      | 0.81   | 0.80     | 1143    |
+| **Weighted Avg**| 0.81      | 0.81   | 0.81     | 1143    |
 
 **Accuracy Score:**
 
 0.8101487314085739
-
 
 
 These results indicate that the model performs reasonably well across all tumor categories, with particularly strong performance on 'pituitary' and 'notumor' classifications.
@@ -142,3 +139,9 @@ Contributions are welcome! If you have suggestions for improvements, feel free t
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+
+
+
+
+
